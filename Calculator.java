@@ -7,7 +7,6 @@ public class Calculator {
         double n1 = Double.parseDouble(args[0]);
         String op = args[1];
         double n2 = Double.parseDouble(args[2]);
-
         switch (op) {
             case "+": System.out.println("Result: " + (n1 + n2)); break;
             case "-": System.out.println("Result: " + (n1 - n2)); break;
